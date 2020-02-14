@@ -24,7 +24,7 @@ async function draw_solution(cell) {
 }
 
 function animate() {
-  solution_found = DFS()
+  solution_found = BFS()
   if(solution_found) {
     draw_solution(SEARCHER_GLOBAL.solution)
     return
