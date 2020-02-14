@@ -39,9 +39,9 @@ class WallCell extends Cell {
 
 // global
 SEARCHER_GLOBAL = {
-  grid: new Grid(40, 40),
+  grid: new Grid(20, 20),
   start: new TreeCell(2, 2, null, 0),
-  goal: new TreeCell(2, 35, null, 0),
+  goal: new TreeCell(2, 18, null, 0),
   solution: null,
   frontier: [],
   explored: [],
